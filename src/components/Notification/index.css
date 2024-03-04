@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.close-icon {
+  color: #475569;
+  margin-top: 15px;
+  margin-left: auto;
+  align-self: center;
+}
+.text-container {
+  display: flex;
+  padding: 10px;
+  border: 1px solid #64748b;
+  border-radius: 8px;
+  background-color: #e5e5e5;
+  width: 60vw;
+  margin: 10px;
+}
+@media (max-width: 767px) {
+  .text-container {
+    width: 90vw;
+  }
+}
